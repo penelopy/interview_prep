@@ -21,3 +21,25 @@ def unique(astring):
     return unique_letters
 
 print unique("marshmellow")
+
+def slice_this(astring):
+    #print first three letters 
+    print astring[:3]
+    #print last three letters 
+    print astring[-3:]
+    #print middle letter 
+    mid = len(astring)/2
+    print astring[mid]
+slice_this("cracking")
+
+def reverse_every_2_letters(astring):
+    new_string = ''
+    for i in range(len(astring)):
+        if i % 2 == 1: 
+            new_string += astring[i]
+            new_string += astring[i - 1]
+
+    return new_string
+print reverse_every_2_letters("mother")
+
+
