@@ -1,3 +1,5 @@
+""" These functions implement a Binary Search Tree """
+
 class TreeNode:
     def __init__(self,key,val,left=None,right=None,parent=None):
         self.key = key
