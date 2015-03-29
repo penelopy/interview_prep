@@ -1,5 +1,8 @@
 
-"""This function checks whether the difference in depths of any two tree leafs is greater then one"""
+"""This function checks whether the difference in depths of any two tree leafs is greater then one
+
+Source: Interview Cake - https://www.interviewcake.com/question/balanced-binary-tree?utm_source=weekly_email
+"""
 def is_balanced(tree_root):
     depths = [] # we short-circuit as soon as we find more than 2
 
@@ -33,7 +36,10 @@ def is_balanced(tree_root):
                 nodes.push((node.right, depth+1))
     return True
 
-"""This function checks whether a binary tree is a valid binary search tree"""
+"""This function checks whether a binary tree is a valid binary search tree
+
+Source: Interview Cake - https://www.interviewcake.com/question/bst-checker?utm_source=weekly_email
+"""
 def bst_checker(root):
     # start at the root, with an arbitrarily low lower bound
     # and an arbitrarily high upper bound
