@@ -28,3 +28,6 @@ for h in range(len(matrix)):
     matrix[j] = matrix[h][4:]
 
 print matrix
+
+""" Solution 3 - in place"""
+
