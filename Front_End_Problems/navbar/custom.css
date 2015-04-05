@@ -1,0 +1,44 @@
+.container { 
+    background-color: #F9F9F9;
+    width: 1200px;
+    height: 800px;
+}
+.main-navbar {
+    background-color: yellow;
+    width: auto;
+    height: 40px;
+    /*display: inline-block;*/
+    border: 1px solid black;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    list-style-type: none;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+.dropdown {
+    /*visibility: hidden;*/
+    display: none;
+    list-style-type: none;
+    width: auto;
+}
+
+
+.header-row {
+    background-color: cornflowerblue;
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-item {
+    border: 1px solid black;
+    width: 90px;
+    display: inline-block;
+}
+
+#Menu li:hover > ul {display: block;}
+
+/*.header-row:hover + .dropdown { display: block; }*/
