@@ -48,10 +48,10 @@ m.next = e
 e.next = n
 
 abdomen = Linked_list()
-abdomen.head = a
+# abdomen.head = a
 
 abdomen.print_list()
-abdomen.reverse_linked_list()
+# abdomen.reverse_linked_list()
 abdomen.print_list()
 
 
